@@ -1,0 +1,52 @@
+.weather-by-days {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-weight: 500;
+	padding: 25px 0;
+  font-family: 'dosismedium';
+}
+
+.weather-list {
+  text-align: center;
+	height: 148px;
+	width: 50px;
+  display: grid;
+  -webkit-align-content: space-around;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+}
+
+.weather-list__day {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-bottom: 1px solid #771921;
+	width: 50px;
+}
+
+.weather-list__day--padding {
+  padding: 0 0 7px 0;
+}
+
+.weather-list__temp--day {
+	color: #771921;
+}
+
+.weather-list__temp--night {
+	color: #332126;
+}

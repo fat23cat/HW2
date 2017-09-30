@@ -1,0 +1,41 @@
+.weather-list {
+	float: left;
+	list-style-type: none;
+	width: 50px;
+	padding: 25px 0 0 40px;
+	text-align: center;
+	font-size: 16px;
+  font-family: "dosismedium";
+}
+
+.weather-list--padding {
+	padding-left: 29px;
+}
+
+.weather-list__icon {
+	float: left;
+	width: 50px;
+	text-align: center;
+}
+
+.weather-list__day {
+	float: left;
+	color: #771921;
+	width: 50px;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	border-bottom: 1px solid #771921;
+}
+
+.weather-list__temp {
+	padding: 10px 0 0 10px;
+	float: left;
+}
+
+.weather-list__temp--day {
+	color: #771921;
+}
+
+.weather-list__temp--night {
+	color: #332126;
+}

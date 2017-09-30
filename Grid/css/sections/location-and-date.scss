@@ -1,0 +1,67 @@
+.location-and-date {
+  -webkit-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+  background: url(../images/background_widget_left.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-right: 1px solid #771921;
+  height: 438px;
+}
+
+.location-and-date__gradient {
+  background: url(../images/gradient.png) no-repeat;
+  background-position-x: 5%;
+  background-position-y: 35%;
+  height: 239px;
+  display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.location-and-date__weather {
+  background-color: rgba(62, 33, 40, 0.89);
+  height: 93px;
+  display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.location-and-date__weather-text {
+  text-align: center;
+  font-size: 36px;
+  color: white;
+}
+
+.location-and-date__date {
+  background-color: rgba(109, 27, 32, 0.89);
+  -webkit-border-radius: 0 0 0 4px;
+  border-radius: 0 0 0 4px;
+  height: 106px;
+  display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.location-and-date__date-text {
+  font-size: 22px;
+  color: white;
+}

@@ -1,0 +1,58 @@
+.location-and-date {
+	width: 290px;
+	height: 438px;
+	-webkit-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+	background: url(../images/background_widget_left.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	float: left;
+	border-right: 1px solid #771921;
+}
+
+.location-and-date__gradient {
+	width: 291px;
+	height: 240px;
+	background: url(../images/gradient.png) no-repeat;
+	background-position-x: 10%;
+	background-position-y: 35%;
+}
+
+.location-and-date__weather-pic {
+	margin: 42px 0 0 76px;
+	float: left;
+}
+
+.location-and-date__weather {
+	height: 93px;
+	width: 291px;
+	background-color: rgba(62, 33, 40, 0.89);
+	margin-bottom: -1px;
+}
+
+.location-and-date__weather-text {
+	width: 291px;
+	text-align: center;
+	font-size: 36px;
+	color: white;
+	float: left;
+	margin-top: 20px;
+}
+
+.location-and-date__date {
+	height: 106px;
+	width: 291px;
+	background-color: rgba(109, 27, 32, 0.89);
+	-webkit-border-radius: 0 0 0 4px;
+	border-radius: 0 0 0 4px;
+}
+
+.location-and-date__date-text {
+	float: left;
+	font-size: 22px;
+	color: white;
+	width: 291px;
+	text-align: center;
+	margin-top: 40px;
+}
